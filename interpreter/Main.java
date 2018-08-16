@@ -1,4 +1,4 @@
-package lab11_05_08;
+package interpreter;
 
 import static java.lang.System.err;
 

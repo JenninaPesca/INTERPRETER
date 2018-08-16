@@ -1,4 +1,4 @@
-package lab11_05_08.environments;
+package interpreter.environments;
 
 public class EnvironmentException extends RuntimeException {
 

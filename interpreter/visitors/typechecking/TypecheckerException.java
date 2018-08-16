@@ -1,4 +1,4 @@
-package lab11_05_08.visitors.typechecking;
+package interpreter.visitors.typechecking;
 
 public class TypecheckerException extends RuntimeException {
 

@@ -1,10 +1,10 @@
-package lab11_05_08.visitors;
+package interpreter.visitors;
 
-import lab11_05_08.parser.ast.Exp;
-import lab11_05_08.parser.ast.ExpSeq;
-import lab11_05_08.parser.ast.Ident;
-import lab11_05_08.parser.ast.Stmt;
-import lab11_05_08.parser.ast.StmtSeq;
+import interpreter.parser.ast.Exp;
+import interpreter.parser.ast.ExpSeq;
+import interpreter.parser.ast.Ident;
+import interpreter.parser.ast.Stmt;
+import interpreter.parser.ast.StmtSeq;
 
 public interface Visitor<T> {
 	T visitAdd(Exp left, Exp right);

@@ -1,6 +1,6 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
-import static lab11_05_08.parser.TokenType.*;
+import static interpreter.parser.TokenType.*;
 
 import java.io.Reader;
 import java.util.HashMap;

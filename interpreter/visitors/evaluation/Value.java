@@ -1,4 +1,4 @@
-package lab11_05_08.visitors.evaluation;
+package interpreter.visitors.evaluation;
 
 public interface Value {
 	/* default conversion methods */

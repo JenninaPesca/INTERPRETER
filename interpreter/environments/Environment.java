@@ -1,6 +1,6 @@
-package lab11_05_08.environments;
+package interpreter.environments;
 
-import lab11_05_08.parser.ast.Ident;
+import interpreter.parser.ast.Ident;
 
 public interface Environment<T> {
 

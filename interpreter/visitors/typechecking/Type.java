@@ -1,4 +1,4 @@
-package lab11_05_08.visitors.typechecking;
+package interpreter.visitors.typechecking;
 
 public interface Type {
 	default Type checkEqual(Type found) throws TypecheckerException {

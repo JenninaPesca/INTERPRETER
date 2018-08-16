@@ -1,4 +1,4 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
 public interface Scanner extends AutoCloseable {
 	void next() throws ScannerException;

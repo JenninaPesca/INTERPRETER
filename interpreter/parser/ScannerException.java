@@ -1,4 +1,4 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
 public class ScannerException extends Exception {
 

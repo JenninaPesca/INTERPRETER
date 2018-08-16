@@ -1,6 +1,6 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
-import lab11_05_08.parser.ast.Prog;
+import interpreter.parser.ast.Prog;
 
 public interface Parser {
 

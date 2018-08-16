@@ -1,10 +1,10 @@
-package lab11_05_08.environments;
+package interpreter.environments;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-import lab11_05_08.parser.ast.Ident;
+import interpreter.parser.ast.Ident;
 
 import static java.util.Objects.requireNonNull;
 

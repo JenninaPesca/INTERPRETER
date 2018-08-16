@@ -1,8 +1,8 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
-import static lab11_05_08.parser.TokenType.*;
+import static interpreter.parser.TokenType.*;
 
-import lab11_05_08.parser.ast.*;
+import interpreter.parser.ast.*;
 
 /*
 Prog ::= StmtSeq 'EOF'

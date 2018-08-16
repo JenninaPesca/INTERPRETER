@@ -1,4 +1,4 @@
-package lab11_05_08.parser;
+package interpreter.parser;
 
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;

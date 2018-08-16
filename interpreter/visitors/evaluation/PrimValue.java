@@ -1,4 +1,4 @@
-package lab11_05_08.visitors.evaluation;
+package interpreter.visitors.evaluation;
 
 import static java.util.Objects.requireNonNull;
 
