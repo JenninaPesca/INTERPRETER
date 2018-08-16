@@ -1,8 +1,8 @@
-package lab11_05_08.parser.ast;
+package interpreter.parser.ast;
 
 import static java.util.Objects.requireNonNull;
 
-import lab11_05_08.visitors.Visitor;
+import interpreter.visitors.Visitor;
 
 public class ForEachStmt implements Stmt {
 	private final Ident ident;

@@ -1,4 +1,4 @@
-package lab11_05_08.parser.ast;
+package interpreter.parser.ast;
 
 import static java.util.Objects.requireNonNull;
 

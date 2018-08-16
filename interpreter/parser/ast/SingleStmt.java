@@ -1,6 +1,6 @@
-package lab11_05_08.parser.ast;
+package interpreter.parser.ast;
 
-import lab11_05_08.visitors.Visitor;
+import interpreter.visitors.Visitor;
 
 public class SingleStmt extends Single<Stmt> implements StmtSeq {
 
