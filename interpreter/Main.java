@@ -11,7 +11,7 @@ import interpreter.parser.ast.Prog;
 import interpreter.visitors.evaluation.Eval;
 import interpreter.visitors.evaluation.EvaluatorException;
 import interpreter.visitors.typechecking.TypeCheck;
-import interpreter.visitors.typechecking.TypecheckerException;
+import interpreter.visitors.typechecking.TypecheckerException ;
 
 
 
