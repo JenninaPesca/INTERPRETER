@@ -6,16 +6,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import lab11_05_08.parser.Parser;
-import lab11_05_08.parser.ParserException;
-import lab11_05_08.parser.StreamParser;
-import lab11_05_08.parser.StreamTokenizer;
-import lab11_05_08.parser.Tokenizer;
-import lab11_05_08.parser.ast.Prog;
-import lab11_05_08.visitors.evaluation.Eval;
-import lab11_05_08.visitors.evaluation.EvaluatorException;
-import lab11_05_08.visitors.typechecking.TypeCheck;
-import lab11_05_08.visitors.typechecking.TypecheckerException;
+import interpreter.parser.*;
+import interpreter.parser.ast.Prog;
+import interpreter.visitors.evaluation.Eval;
+import interpreter.visitors.evaluation.EvaluatorException;
+import interpreter.visitors.typechecking.TypeCheck;
+import interpreter.visitors.typechecking.TypecheckerException;
+
+
 
 public class Main {
 	public static void main(String[] args) {
