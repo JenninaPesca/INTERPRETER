@@ -22,6 +22,7 @@ public class Main {
 			Parser parser = new StreamParser(tokenizer);
 			Prog prog = parser.parseProg();
 			prog.accept(new TypeCheck());
+			System.out.println("ciao pazzo");
 			prog.accept(new Eval());
 		} catch (ParserException e) {
 			err.println("Syntax error: " + e.getMessage());
